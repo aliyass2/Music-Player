@@ -21,4 +21,5 @@ function myFunction() {
 }
 loop.onclick = function () {
   mySong.loop = true;
+  loop.src = "/images/loop-inf.png";
 };
