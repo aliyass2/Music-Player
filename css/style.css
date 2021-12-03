@@ -1,0 +1,88 @@
+body {
+  background-color: rgba(12, 12, 12, 0.925);
+  padding: 0;
+  color: white;
+  width: 350px;
+}
+.music-container {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  width: 350px;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  display: fixed;
+  position: absolute;
+  background-image: linear-gradient(#434343, #000000);
+  border-radius: 25px;
+}
+.header p {
+  text-align: center;
+  margin-top: 20px;
+}
+.music-player-img {
+  text-align: center;
+}
+.music-player-img img {
+  width: 200px;
+  height: 200px;
+  border-radius: 5px;
+}
+.music-info {
+  text-align: center;
+  padding-top: 20px;
+}
+.music-info h4 {
+  font-size: 23px;
+}
+.music-info h5 {
+  color: lightgray;
+}
+.progress-area {
+  text-align: center;
+  padding-left: 20%;
+}
+.progress-bar {
+  border-radius: 10px;
+  background: lightslategrey;
+  border: 1px;
+  font-size: 5px;
+  width: 75%;
+  height: 6px;
+}
+.music-controls {
+  margin: 40px 20px 5px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  overflow: auto;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
+
+.dropdown-content a {
+  font-size: 13px;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #f1f1f1;
+}
+
+.show {
+  display: block;
+}

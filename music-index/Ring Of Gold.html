@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="/css/style.css" />
+    <title>Music Player</title>
+  </head>
+  <body>
+    <div class="music-container">
+      <div class="header"><p>Music Player</p></div>
+      <hr />
+      <div class="music-player-img">
+        <img src="/images/3.jpg" />
+      </div>
+      <div class="music-info">
+        <h4>Ring Of Gold</h4>
+        <h5>Bathory</h5>
+      </div>
+      <div class="progress-area">
+        <div class="progress-bar"></div>
+      </div>
+      <div class="music-controls">
+        <img src="/images/loop.png" style="width: 50px" id="loop" />
+        <img src="/images/previous.png" style="width: 50px" />
+        <img src="/images/play.png" style="width: 50px" id="icon" />
+        <img src="/images/next.png" style="width: 50px" />
+        <img
+          src="/images/list.png"
+          style="width: 40px"
+          id="myBtn"
+          class="dropbtn"
+        />
+      </div>
+    </div>
+    <div class="dropdown">
+      <div id="myDropdown" class="dropdown-content">
+        <a href="/music-index/Demon Souls.html">The one Who Craves Souls</a>
+        <a href="/music-index/Foreverdark woods.html">Foreverdark Woods</a>
+        <a href="/music-index/Gwyn,Lord of cinder.html">Gwyn Lord Of Cinder</a>
+        <a href="/music-index/La campanella.html">La Campanella</a>
+        <a href="/music-index/Mr Crowley.html">Mr Crowley</a>
+        <a href="/music-index/Pathtique Third Movement.html"
+          >Pathtique Third Movement</a
+        >
+        <a href="/music-index/Ring Of Gold.html">Ring of Gold</a>
+        <a href="/music-index/Sweet Child O' Mine.html">Sweet Child o' Mine</a>
+        <a href="/music-index/Tempest Third Movement.html"
+          >Tempest Third Movement</a
+        >
+        <a href="/music-index/The Devil's Trill Sonata.html"
+          >The Devil's Trill Sonata</a
+        >
+        <a href="/music-index/To Bid You Farewell.html">To Bid You Farewell</a>
+        <a href="/music-index/Watch The Skies.html">Watch The Skies</a>
+      </div>
+    </div>
+    <audio id="mySong">
+      <source src="/music/Ring of Gold.mp3" />
+    </audio>
+    <script src="/js/script.js"></script>
+  </body>
+</html>
